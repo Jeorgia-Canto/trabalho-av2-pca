@@ -45,7 +45,7 @@ def inserir(df):
     return df
 
 def exibir_aluno(resultado):
-    print("\n=========== ALUNO ===========")
+    print("\n             ALUNO           ")
     linha = resultado.iloc[0]
     print(f"Matrícula : {linha['matricula']}")
     print(f"Nome      : {linha['nome']}")
@@ -56,7 +56,7 @@ def exibir_aluno(resultado):
     print(f"UF        : {linha['uf']}")
     print(f"Telefone  : {linha['telefone']}")
     print(f"E-mail    : {linha['email']}")
-    print("=================================")
+    print("                                ")
 
 def pesquisar(df):
     print("\nPESQUISAR ALUNO")
@@ -151,7 +151,7 @@ def menu():
     df = carregar_dados()
 
     while True:
-        print("\n======= MENU =======")
+        print("\n           MENU          ")
         print("1 - INSERIR")
         print("2 - PESQUISAR")
         print("3 - SAIR")

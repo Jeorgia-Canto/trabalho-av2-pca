@@ -4,7 +4,7 @@ def main():
     df = carregar_dados()
 
     while True:
-        print("\n===== MENU =====")
+        print("\n       MENU        ")
         print("1 - INSERIR")
         print("2 - PESQUISAR")
         print("3 - SAIR")
